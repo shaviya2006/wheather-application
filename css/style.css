@@ -1,0 +1,40 @@
+header {
+    background-color: #6d7276;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    width: 100%;
+    flex-wrap: nowrap;              
+}
+
+.row-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;                      
+    flex: 0 0 auto;                 
+}
+
+.row-left img {
+    width: 100px;
+    height: auto;
+}
+
+.row-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;     
+    flex: 1;                        
+}
+
+.row-right input {
+    width: 300px;   
+    padding: 8px 10px;
+    border-radius: 5px;
+    
+}
